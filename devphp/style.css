@@ -1,0 +1,142 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #0f172a; /* Azul escuro */
+    color: #e2e8f0; /* Cinza claro */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #1e293b; /* Cinza azulado escuro */
+    border-radius: 16px;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.5);
+    padding: 48px;
+    width: 420px;
+    max-width: 90%;
+    text-align: center;
+}
+
+h1 {
+    color: #38bdf8; /* Azul claro */
+    margin-bottom: 32px;
+    font-size: 2.3em;
+    font-weight: 600;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    color: #cbd5e1;
+    font-weight: 500;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 20px;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    background-color: #0f172a;
+    color: #e2e8f0;
+    font-size: 1em;
+    transition: border 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #38bdf8;
+    outline: none;
+}
+
+input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+button {
+    background-color: #38bdf8;
+    color: #0f172a;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0ea5e9;
+    transform: scale(1.03);
+}
+
+p {
+    margin-top: 20px;
+    color: #94a3b8;
+}
+
+a {
+    color: #38bdf8;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0ea5e9;
+}
+
+.success-message {
+    color: #22c55e;
+    background-color: #14532d;
+    border: 1px solid #166534;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.error-message {
+    color: #f87171;
+    background-color: #7f1d1d;
+    border: 1px solid #b91c1c;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.dashboard-info {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.dashboard-info p {
+    color: #e2e8f0;
+    margin-bottom: 10px;
+}
+
+.dashboard-info strong {
+    color: #38bdf8;
+    font-weight: 600;
+}
+
+.container form[action="logout.php"] {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.brazino-text {
+    color: #0ea5e9;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-top: 30px;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+}
